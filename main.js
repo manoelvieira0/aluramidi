@@ -2,13 +2,15 @@ function tocaSomPom() {
     document.querySelector('#som_tecla_pom').play()
 }
 
-var teclaPom = document.querySelector('.tecla_pom')
+Document.querySelectorAll('.tecla')
 
+/*
 document.onkeydown = teclado
 
 function teclado(e){
-    if(e.keyCode == 97){
-        tocaSomPom()
+    if(e.keyCode == XX){
+        tocaSom()
     }
 }
+*/
 
