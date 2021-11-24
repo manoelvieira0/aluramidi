@@ -1,1 +1,1 @@
-console.log('Hello Word')
+document.querySelector('.tecla_pom')
