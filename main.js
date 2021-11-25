@@ -2,7 +2,7 @@ function tocaSomPom() {
     document.querySelector('#som_tecla_pom').play()
 }
 
-Document.querySelectorAll('.tecla')
+const listaDeTeclas = document.querySelectorAll('.tecla')
 
 /*
 document.onkeydown = teclado
