@@ -1,10 +1,13 @@
-function tocaSomPom() {
-    document.querySelector('#som_tecla_pom').play()
+function tocaSom(idElementoAudio) {
+    document.querySelector(idElementoAudio).play()
 }
 
 const listaDeTeclas = document.querySelectorAll('.tecla')
 
-listaDeTeclas[0].onclick = tocaSomPom
+for(i=0;i<listaDeTeclas.length;i++){
+    listaDeTeclas[i].onclick = tocaSom
+}
+
 
 /*
 document.onkeydown = teclado
